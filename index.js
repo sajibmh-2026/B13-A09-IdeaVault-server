@@ -18,7 +18,12 @@ connectDB();
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001", "https://ideavault.vercel.app"],
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:3001",
+      "https://ideavault.vercel.app",
+      "https://ba13-a09-ideavault-client.vercel.app",
+    ],
     credentials: true,
   })
 );
