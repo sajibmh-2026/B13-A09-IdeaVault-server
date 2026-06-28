@@ -21,6 +21,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:3001",
+      "https://idea-vault-ten-theta.vercel.app",
       "https://ideavault.vercel.app",
       "https://ba13-a09-ideavault-client.vercel.app",
     ],
