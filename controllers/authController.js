@@ -40,6 +40,7 @@ const register = async (req, res) => {
 
     res.status(201).json({
       message: "User registered successfully",
+      token,
       user: { name: user.name, email: user.email, photoURL: user.photoURL },
     });
   } catch (error) {
@@ -72,6 +73,7 @@ const login = async (req, res) => {
 
     res.json({
       message: "Login successful",
+      token,
       user: { name: user.name, email: user.email, photoURL: user.photoURL },
     });
   } catch (error) {
@@ -103,6 +105,7 @@ const googleLogin = async (req, res) => {
 
     res.json({
       message: "Google login successful",
+      token,
       user: { name: user.name, email: user.email, photoURL: user.photoURL },
     });
   } catch (error) {
