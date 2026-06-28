@@ -4,7 +4,7 @@ IdeaVault is a modern startup idea sharing platform where entrepreneurs, innovat
 
 ## 🌐 Live Website
 
-[https://ba13-a09-ideavault-client.vercel.app](https://ba13-a09-ideavault-client.vercel.app)
+[https://idea-vault-ten-theta.vercel.app](https://idea-vault-ten-theta.vercel.app)
 
 ## 📂 Repositories
 
